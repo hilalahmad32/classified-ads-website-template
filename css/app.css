@@ -1,0 +1,75 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+#navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bg__red {
+  background-color: #78e08f;
+}
+
+.left__side {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.left__side h6 {
+  margin-left: -40px;
+  font-size: 1.4rem;
+  color: white;
+}
+
+.left__side .img {
+  width: 20%;
+}
+
+.right__side {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.right__side a {
+  color: white;
+}
+
+.right__side .active {
+  color: blue;
+}
+
+.text__xl {
+  font-size: 1.1rem;
+}
+
+.bg__image {
+  width: 100%;
+  min-height: 40vh;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 900px) {
+  .right__side a {
+    display: block;
+  }
+}
+/*# sourceMappingURL=app.css.map */

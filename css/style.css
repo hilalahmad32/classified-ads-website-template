@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+  
+  
+  }
+  a{
+    text-decoration: none !important;
+  }
+  
+  #navbar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .bg__red {
+    background-color: #78e08f;
+  }
+  
+  .left__side {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+  }
+  
+  .left__side h6 {
+    margin-left: -40px;
+    font-size: 1.4rem;
+    color: white;
+  }
+  
+  .left__side .img {
+    width: 20%;
+  }
+  
+  .right__side {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  
+  .right__side a {
+    color: white;
+  }
+  
+  .right__side .active {
+    color: blue;
+  }
+  
+  .text__xl {
+    font-size: 1.1rem;
+  }
+  
+  .bg__image {
+    width: 100%;
+    min-height: 40vh;
+    background-size: cover;
+    background-position: center center;
+    background-repeat:  no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-blend-mode: darken;
+  }
+  #show{
+      display: none ;
+  }
+  .ads_cat{
+    position: relative;
+    cursor: pointer;
+  }
+  .ads_cat img {
+      width: 100%;
+      border-radius: 10px;
+      height:30vh;
+      object-fit: cover;
+  }
+  .ads_cats{
+    content: '';
+    position:absolute;
+    top: 0;
+    display:flex;
+    left:0;
+    bottom: 0;
+    right: 0;
+    padding-top: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items:center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.39);
+    border-radius: 10px;
+
+
+  }
+
+  .ads_cats .ads_content svg{
+    fill: white;
+    width: 20%;
+    padding: 10px;
+    border-radius:5px;
+    margin-bottom: 10px;
+  }
+  #card{
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgb(116, 115, 115);
+    border-radius: 10px;
+  }
+  .ads_card{
+    position: relative;
+    cursor: pointer;
+   
+
+  }
+  .ads_card img {
+      width: 100%;
+      border-radius: 10px;
+      height:30vh;
+      object-fit: cover;
+  }
+  .ads_cards_content{
+    content: '';
+    position:absolute;
+    left:5%;
+    bottom: 0%;
+    padding-top: 20px;
+    color: white;
+    border-radius: 10px;
+    display:flex;
+    align-items:center;
+  }
+
+  .ads_cards .ads_cards_content svg{
+    fill: white;
+    width: 10%;
+    padding: 10px;
+    border-radius:5px;
+    margin-bottom: 10px;
+  }
+  .ads_cards .ads_cards_content h6{
+    margin-left: 10px;
+  }
+  .custom_btn{
+    outline: none;
+    border: none;
+    padding:5px 15px;
+    text-transform: capitalize;
+    border: 1px solid gray;
+    box-shadow: 0px 3px 5px gray ;
+    font-size: 1.2rem;
+  }
+  .custom_btn:hover{
+    background-color:#78e08f;
+    color: white;
+    transition: all 0.4s;
+  }
+
+  .footer_button{
+    outline: none;
+    border: none;
+    padding:5px 25px;
+    text-transform: capitalize;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    background-color:#78e08f;
+    color: white;
+  }
+  .footer_button:hover{
+    background-color:transparent !important;
+    color: #78e08f;
+    border: 1px solid #78e08f;
+    transition: all .4s;
+  }
+
+  .footer_left_side img{
+    width: 20%;
+  }
+  .footer_right_side div  svg{
+    width:7%;
+    fill: white !important;
+    margin-right:20px;
+    margin-top: 20px;
+  }
+ 
+  .bg__black{
+    background-color:black;
+  }
+  .fa-brands{
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  .fa-facebook {
+    color: blue !important;
+  }
+  .text_pink{
+    color: pink;
+  }
+  .banner_btn{
+    outline: none;
+    border: none;
+    padding:5px 35px;
+    text-transform: capitalize;
+    font-size: 1.2rem;
+    border-radius: 30px;
+    background-color:transparent;
+    color: white;
+    border: 1px solid white;
+    transition: all .4s;
+  }
+  .ml_2{
+    margin-left: 20px;
+  }
+  .banner_btn:hover{
+    background-color:#78e08f;
+    transition: all .4s;
+  }
+  .banner_img img{
+    width: 100%;
+    border-radius: 10px;
+  }
+  .pageination_btn{
+    outline: none;
+    border: none;
+    padding:5px 15px;
+    text-transform: capitalize;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    transition: all .4s;
+    background-color: #78e08f;
+  }
+  .btn_active{
+    background-color:rgb(204, 204, 204);
+  }
+  .left__side__from{
+    background-color: rgb(194, 44, 69);
+    padding: 20px;
+    height:fit-content;
+
+  }
+  .c__form{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.322);
+
+  }
+  #form-group{
+    margin: 10px 0px;
+  }
+
+  #form__control{
+    width: 100%;
+    outline:none;
+    border: none;
+    border-bottom: 1px solid white;
+    background-color: transparent;
+    padding: 10px 0px;
+    color: white;
+    font-size: 1.2rem;
+  }
+
+  #form__control::placeholder{
+    color: white;
+  }
+  .contact div{
+    margin: 30px 0px;
+  }
+  .contact div  svg{
+    width:4%;
+    fill: black !important;
+    margin-right:20px;
+    margin-top: 20px;
+  }
+  .form_btn{
+    outline: none;
+    border: none;
+    padding:5px 25px;
+    text-transform: capitalize;
+    font-size: 1.2rem;
+    border-radius: 20px;
+    background-color:#78e08f;
+    color: white;
+  }
+  @media screen and (max-width: 900px) {
+      #navbar{
+        position: relative;
+       transition: all .4s;
+
+      }
+      #show{
+        display: block ;
+        cursor: pointer;
+    }
+    .right__side  {
+        content: '';
+        position: absolute;
+       display: none;
+       top: 100%;
+       z-index: 999;
+       background-color: #78e08f;
+       left:0;
+       width: 100%;
+    }
+    .active{
+        display: block;
+
+    }
+    .right__side a{
+        margin-top: 10px;
+
+    }
+  }
